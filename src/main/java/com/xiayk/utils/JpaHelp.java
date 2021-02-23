@@ -15,7 +15,7 @@ import java.util.List;
 
 public class JpaHelp {
 
-    public static <T extends BaseEntity, Q extends BaseQuery> Predicate query(Root<T> root, Q query, CriteriaBuilder cb){
+    public static <T extends BaseEntity, Q extends BaseQuery<T>> Predicate query(Root<T> root, Q query, CriteriaBuilder cb){
         Predicate predicate = cb.conjunction();
         getFields(query).forEach(e -> {
             Predicate pre = null;

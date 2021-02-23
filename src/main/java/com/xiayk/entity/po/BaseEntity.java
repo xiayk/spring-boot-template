@@ -13,9 +13,6 @@ import java.util.Date;
 @Data
 @EqualsAndHashCode
 @MappedSuperclass
-//@SQLDelete(sql = "update sys_user set deleted = 'Y' where id = ?")
-//@SQLDeleteAll(sql = "update sys_user set deleted = 'Y' where id = ?")
-//@Where(clause = "deleted = 'N")
 //@EntityListeners(value = {AuditListener.class})
 public class BaseEntity implements Serializable {
 
