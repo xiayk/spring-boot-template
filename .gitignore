@@ -19,6 +19,8 @@ target/
 *.iml
 *.ipr
 
+/spring-boot-template.iml
+.idea
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
