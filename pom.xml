@@ -18,10 +18,10 @@
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
     <dependencies>
-<!--    <dependency>-->
-<!--        <groupId>org.springframework.boot</groupId>-->
-<!--        <artifactId>spring-boot-starter-web</artifactId>-->
-<!--    </dependency>-->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
 
     <dependency>
         <groupId>org.springframework.boot</groupId>
@@ -76,12 +76,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
         </dependency>
-
-        <!--        <dependency>-->
-<!--            <groupId>com.xiayk.nginx</groupId>-->
-<!--            <artifactId>xweb-spring-boot-starter-nginx</artifactId>-->
-<!--            <version>1.0.0.Abs</version>-->
-<!--        </dependency>-->
     </dependencies>
     <build>
         <finalName>${project.artifactId}</finalName><!--打jar包去掉版本号-->
